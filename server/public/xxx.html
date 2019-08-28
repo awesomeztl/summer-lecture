@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>小组管理系统-帖子</title>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+</head>
+<body>
+<div id="Group">
+    <p>{{ message }}</p>
+    <a v-bind:href="url"><button v-on:click=Exit>关闭</button></a>
+</div>
+<script>
+    var app5 = new Vue ({
+        el: '#Group',
+        data: {
+            message: '想跟大家聊聊xxxx',
+            url: 'file:///C:/Users/zkh19/Desktop/%E5%B7%A5%E4%BD%9C/%E5%B0%8F%E5%AD%A6%E6%9C%9F/test.html'
+        },
+        methods: {
+            Exit: function() {
+                alert('退出成功')
+            }
+        }
+    });
+</script>
+</body>
+</html>

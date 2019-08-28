@@ -1,0 +1,521 @@
+﻿<!DOCTYPE HTML>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Moviepoint - Online Movie,Vedio and TV Show HTML Template</title>
+		<!-- Favicon Icon -->
+		<link rel="icon" type="image/png" href="assets/img/favcion.png" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="all" />
+		<!-- Slick nav CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/slicknav.min.css" media="all" />
+		<!-- Iconfont CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/icofont.css" media="all" />
+		<!-- Owl carousel CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+		<!-- Popup CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+		<!-- Main style CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all" />
+		<!--[if lt IE 9]>
+		  <script src="http://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+
+		<!-- Page loader -->
+	    <div id="preloader"></div>
+		<!-- header section start -->
+		<header class="header">
+			<div class="container">
+				<div class="header-area">
+					<div class="logo">
+						<a href="index.html"><img src="assets/img/logo.png" alt="logo" /></a>
+					</div>
+					<div class="header-right">
+						<form action="#">
+							<select>
+								<option value="Movies">Movies</option>
+								<option value="Books">Books</option>
+								<option value="Groups">Groups</option>
+								<option value="Reviews">Reviews</option>
+							</select>
+							<div class="bgDiv">
+								<input type="text" class="search-input-text" autofocus>
+            					<button class="icofont icofont-search" id="btn"></button>
+            					<div class="suggest">
+                					<ul id="search-result">
+                					</ul>
+								</div>
+							</div>
+						</form>
+						<ul>
+							<li><a href="#">Welcome!</a></li>
+							<li><a class="login-popup" href="#">Login</a></li>
+							<li><a class="signup-popup" href='#'>Signup</a></li>
+						</ul>
+					</div>
+					<div class="menu-area">
+						<div class="responsive-menu"></div>
+					    <div class="mainmenu">
+                            <ul id="primary-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="movies.html">Movies</a></li>
+
+                                <li><a href="groups.html">Groups</a></li>
+								<li><a href="#">Pages <i class="icofont icofont-simple-down"></i></a>
+									<ul>
+										<li><a href="book-details.html">Book Details</a></li>
+										<li><a class="active" href="movie-details.html">Movie Details</a></li>
+									</ul>
+								</li>
+                            </ul>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="login-area">
+			<div class="login-box">
+				<a href="#"><i class="icofont icofont-close"></i></a>
+				<h2>LOGIN</h2>
+				<form action="#">
+					<h6>USERNAME OR EMAIL ADDRESS</h6>
+					<input type="text" />
+					<h6>PASSWORD</h6>
+					<input type="text" />
+					<div class="login-remember">
+						<input type="checkbox" />
+						<span>Remember Me</span>
+					</div>
+					<div class="login-signup">
+						<span><a class="signup-popup" href="#">SIGN UP</a></span>
+					</div>
+					<a href="#" class="theme-btn">LOG IN</a>
+					<span>Or Via Social</span>
+					<div class="login-social">
+						<a href="#"><i class="icofont icofont-social-facebook"></i></a>
+						<a href="#"><i class="icofont icofont-social-twitter"></i></a>
+						<a href="#"><i class="icofont icofont-social-linkedin"></i></a>
+						<a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+						<a href="#"><i class="icofont icofont-camera"></i></a>
+					</div>
+				</form>
+		
+			</div>
+		</div>
+		<div class="signup-area">
+			<div class="signup-box">
+				<a href="#"><i class="icofont icofont-close"></i></a>
+				<h2>SIGNUP</h2>
+				<form action="#">
+					<h6>USERNAME OR EMAIL ADDRESS</h6>
+					<input type="text" />
+					<h6>PASSWORD</h6>
+					<input type="text" />
+					<h6>CONFIRM PASSWORD</h6>
+					<input type="text" />
+					<a href="#" class="theme-btn">SIGN UP</a>
+					<span>Or Via Social</span>
+					<div class="login-social">
+						<a href="#"><i class="icofont icofont-social-facebook"></i></a>
+						<a href="#"><i class="icofont icofont-social-twitter"></i></a>
+						<a href="#"><i class="icofont icofont-social-linkedin"></i></a>
+						<a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+						<a href="#"><i class="icofont icofont-camera"></i></a>
+					</div>
+				</form>
+		
+			</div>
+		</div>
+		<!-- header section end -->
+		<!-- breadcrumb area start -->
+		<section class="breadcrumb-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="breadcrumb-area-content">
+							<h1>Movie Detalied Page</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- breadcrumb area end -->
+		<!-- transformers area start -->
+		<section class="transformers-area">
+			<div class="container">
+				<div class="transformers-box">
+					<div class="row flexbox-center">
+						<div class="col-lg-5 text-lg-left text-center">
+							<div class="transformers-content">
+								<img src="assets/pic/who_am_i_3.jpg" alt="about" />
+							</div>
+						</div>
+						<div class="col-lg-7">
+							<div class="transformers-content">
+								<h2>Who Am I</h2>
+								<p>3D | Animation | Action | Sci-Fi</p>
+								<ul>
+									<li>
+										<div class="transformers-left">
+											Movie:
+										</div>
+										<div class="transformers-right">
+											<a href="#">Sci-Fic</a>
+										</div>
+									</li>
+									<li>
+										<div class="transformers-left">
+											Writer:
+										</div>
+										<div class="transformers-right">
+											Baran bo Odar, Jantje Friese
+										</div>
+									</li>
+									<li>
+										<div class="transformers-left">
+											Director:
+										</div>
+										<div class="transformers-right">
+											Baran bo Odar
+										</div>
+									</li>
+									<li>
+										<div class="transformers-left">
+											Time: 
+										</div>
+										<div class="transformers-right">
+											102m
+										</div>
+									</li>
+									<li>
+										<div class="transformers-left">
+											Release:
+										</div>
+										<div class="transformers-right">
+											2014-09-25
+										</div>
+									</li>
+									<li>
+										<div class="transformers-left">
+											Language:
+										</div>
+										<div class="transformers-right">
+											English, German
+										</div>
+									</li>
+									<li>
+										<div class="transformers-left">
+											Cinema:
+										</div>
+										<div class="transformers-right">
+											HB Movies  |  HW Town <a href="#" class="theme-btn">Movies House</a>Grand Seats  |  HB Max
+											<div class="transformers-bottom">
+												<p>September 25, 2014 <span>15h47</span></p>
+												<p>September 25, 2014 <span>15h47</span></p>
+												<p>September 25, 2014 <span>15h47</span></p>
+											</div>
+											
+										</div>
+									</li>
+									<li>
+										<div class="transformers-left">
+											Share:
+										</div>
+										<div class="transformers-right">
+											<a href="#"><i class="icofont icofont-social-facebook"></i></a>
+											<a href="#"><i class="icofont icofont-social-twitter"></i></a>
+											<a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+											<a href="#"><i class="icofont icofont-youtube-play"></i></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="theme-btn"><i class="icofont icofont-ticket"></i> BUY TICKET</a>
+				</div>
+			</div>
+		</section><!-- transformers area end -->
+		<!-- details area start -->
+		<section class="details-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9">
+						<div class="details-content">
+							<div class="details-overview">
+								<h2>Overview</h2>
+								<p>Benjamin, a young German computer whiz, is invited to join a subversive hacker group
+								that wants to be noticed on the world's stage.</p>
+							</div>
+							<div class="details-reply">
+								<h2>Leave a Reply</h2>
+								<form action="#">
+									<div class="row">
+										<div class="col-lg-4">
+											<div class="select-container">
+												<input type="text" placeholder="Name"/>
+												<i class="icofont icofont-ui-user"></i>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="select-container">
+												<input type="text" placeholder="Email"/>
+												<i class="icofont icofont-envelope"></i>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="select-container">
+												<input type="text" placeholder="Phone"/>
+												<i class="icofont icofont-phone"></i>
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="textarea-container">
+												<textarea placeholder="Type Here Message"></textarea>
+												<button><i class="icofont icofont-send-mail"></i></button>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="details-comment">
+								<a class="theme-btn theme-btn2" href="#">Post Comment</a>
+								<p>You may use these HTML tags and attributes:  </p>
+							</div>
+							<div class="details-thumb">
+								<div class="details-thumb-prev">
+									<div class="thumb-icon">
+										<i class="icofont icofont-simple-left"></i>
+									</div>
+									<div class="thumb-text">
+										<h4>Previous Post</h4>
+										<p>Standard Post With Gallery</p>
+									</div>
+								</div>
+								<div class="details-thumb-next">
+									<div class="thumb-text">
+										<h4>Next Post</h4>
+										<p>Standard Post With Preview Image</p>
+									</div>
+									<div class="thumb-icon">
+										<i class="icofont icofont-simple-right"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 text-center text-lg-left">
+					    <div class="portfolio-sidebar">
+							<img src="assets/pic/blackhat_1.jpg" alt="sidebar" />
+							<img src="assets/pic/tron_1.jpg" alt="sidebar" />
+							<img src="assets/pic/firewall_1.jpg" alt="sidebar" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- details area end -->
+		<!-- footer section start -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+                    <div class="col-lg-3 col-sm-6">
+						<div class="widget">
+							<img src="assets/img/logo.png" alt="about" />
+							<p>May the force be with you！</p>
+							<h6><span>Call us: </span>(+86) 1008611</h6>
+						</div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+						<div class="widget">
+							<h4>Legal</h4>
+							<ul>
+								<li><a href="#">Terms of Use</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Security</a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+						<div class="widget">
+							<h4>Account</h4>
+							<ul>
+								<li><a href="#">My Account</a></li>
+								<li><a href="#">Watchlist</a></li>
+								<li><a href="#">Collections</a></li>
+								<li><a href="#">User Guide</a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+						<div class="widget">
+							<h4>Support</h4>
+							<p>Welcome to join us in our development.</p>
+						</div>
+                    </div>
+				</div>
+				<hr />
+			</div>
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 text-center text-lg-left">
+							<div class="copyright-content">
+								<p>&copy; 2019 MoviePoint. All Rights Reserved. Designed by #22</p>
+							</div>
+						</div>
+						<div class="col-lg-6 text-center text-lg-right">
+							<div class="copyright-content">
+								<a href="#" class="scrollToTop">
+									Back to top<i class="icofont icofont-arrow-up"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer><!-- footer section end -->
+		<!-- jquery main JS -->
+		<script src="assets/js/jquery.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- Slick nav JS -->
+		<script src="assets/js/jquery.slicknav.min.js"></script>
+		<!-- owl carousel JS -->
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!-- Popup JS -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- Isotope JS -->
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<!-- main JS -->
+		<script src="assets/js/main.js"></script>
+		
+		<script>
+			var suggestContainer = document.getElementsByClassName("suggest")[0];
+			var searchInput = document.getElementsByClassName("search-input-text")[0];
+			var bgDiv = document.getElementsByClassName("bgDiv")[0];
+			var searchResult = document.getElementById("search-result");
+	
+			// 清除建议框内容
+			function clearContent() {
+				var size = searchResult.childNodes.length;
+				for (var i = size - 1; i >= 0; i--) {
+					searchResult.removeChild(searchResult.childNodes[i]);
+				}
+			};
+	
+			var timer = null;
+			// 注册输入框键盘抬起事件
+			searchInput.onkeyup = function (e) {
+				suggestContainer.style.display = "block";
+				// 如果输入框内容为空 清除内容且无需跨域请求
+				if (this.value.length === 0) {
+					clearContent();
+					return;
+				}
+				if (this.timer) {
+					clearTimeout(this.timer);
+				}
+				if (e.keyCode !== 40 && e.keyCode !== 38) {
+					// 函数节流优化
+					this.timer = setTimeout(() => {
+						// 创建script标签JSONP跨域
+						var script = document.createElement("script");
+						script.src = "https://www.baidu.com/su?&wd=" + encodeURI(this.value.trim()) +
+							"&p=3&cb=handleSuggestion";
+						document.body.appendChild(script);
+					}, 130)
+				}
+	
+			};
+	
+			// 回调函数处理返回值
+			function handleSuggestion(res) {
+				// 清空之前的数据！！
+				clearContent();
+				var result = res.s;
+				// 截取前五个搜索建议项
+				if (result.length > 5) {
+					result = result.slice(0, 5)
+				}
+				for (let i = 0; i < result.length; i++) {
+					// 动态创建li标签
+					var liObj = document.createElement("li");
+					liObj.innerHTML = result[i];
+					searchResult.appendChild(liObj);
+				}
+				// 自执行匿名函数--删除用于跨域的script标签
+				(function () {
+					var s = document.querySelectorAll('script');
+					for (var i = 1, len = s.length; i < len; i++) {
+						document.body.removeChild(s[i]);
+					}
+				})()
+			}
+	
+	
+			function jumpPage() {
+				window.open(`https://www.douban.com/search?cat=1001&q=${encodeURI(searchInput.value)}`);
+			}
+	
+			// 事件委托 点击li标签或者点击搜索按钮跳转到百度搜索页面
+			bgDiv.addEventListener("click", function (e) {
+				if (e.target.nodeName.toLowerCase() === 'li') {
+					var keywords = e.target.innerText;
+					searchInput.value = keywords;
+					jumpPage();
+				} else if (e.target.id === 'btn') {
+					jumpPage();
+				}
+			}, false);
+	
+			var i = 0;
+			var flag = 1;
+	
+			// 事件委托 监听键盘事件
+			bgDiv.addEventListener("keydown", function (e) {
+				var size = searchResult.childNodes.length;
+				if (e.keyCode === 13) {
+					jumpPage();
+				};
+				// 键盘向下事件
+				if (e.keyCode === 40) {
+					if (flag === 0) {
+						i = i + 2;
+					}
+					flag = 1;
+					e.preventDefault();
+					if (i >= size) {
+						i = 0;
+					}
+					if (i < size) {
+						searchInput.value = searchResult.childNodes[i++].innerText;
+					}
+				};
+				// 键盘向上事件
+				if (e.keyCode === 38) {
+					if (flag === 1) {
+						i = i - 2;
+					}
+					flag = 0;
+					e.preventDefault();
+					if (i < 0) {
+						i = size - 1;
+					}
+					if (i > -1) {
+						searchInput.value = searchResult.childNodes[i--].innerText;
+					}
+				};
+			}, false);
+	
+			// 点击页面任何其他地方 搜索结果框消失
+			document.onclick = () => clearContent()
+		</script>
+	</body>
+</html>
